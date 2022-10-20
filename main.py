@@ -29,5 +29,5 @@ def get_user_text(message):
         time.sleep(local_time)
         bot.send_message(message.chat.id, f'+text', parse_mode='html')
 
-
+#Глеб тут
 bot.polling(none_stop=True, interval=0)
